@@ -1,0 +1,295 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+video {
+  width: 900;
+}
+
+h1 {
+  font-size: 150;
+  width: 700px;
+  margin: 90 200;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  padding: 50 200;
+  font-size: 100;
+}
+
+h3 {
+  margin: 0;
+  padding: 20 200;
+  font-size: 40;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 1000;
+  color: white;
+}
+
+a:hover {
+  color: rgb(196, 196, 196);
+}
+
+a:active {
+  color: grey;
+}
+
+.credentials-line-break {
+  display: block;
+  margin: 60px 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 30px;
+  margin: 0;
+}
+
+.banner-container {
+  display: flex;
+  background-image: url(images/hero-image.jpg);
+  background-size: cover;
+  height: 800;
+}
+
+.credentials {
+  font-size: 20;
+}
+
+.hamlet-img {
+  position: absolute;
+  width: 600;
+  height: 500;
+  right: 70;
+}
+
+.section-titles {
+  color: rgb(201, 201, 201);
+  padding-top: 100;
+}
+
+.section-title-center {
+  color: rgb(201, 201, 201);
+  padding-top: 100;
+  text-align: center;
+}
+
+#section-2 {
+  background-color: rgb(0, 71, 42);
+  margin: 0;
+  display: relative;
+}
+
+#section-3 {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  display: relative;
+}
+
+#section-4 {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  display: relative;
+  height: 800;
+}
+
+#section-5 {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  display: relative;
+}
+
+.character-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.char-btn {
+  background-color: rgb(0, 51, 0);
+  border: none;
+  padding: 20 40;
+  color: white;
+  font-weight: 300;
+  font-size: large;
+}
+
+.char-btn:hover {
+  background-color: rgb(0, 156, 0);
+}
+
+.char-btn:active {
+  background-color: rgb(141, 255, 141);
+  color: black;
+}
+
+#section-6 {
+  background-color: rgb(0, 71, 42);
+  margin: 0;
+  display: relative;
+  min-height: 400;
+}
+
+#section-7 {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  display: relative;
+}
+
+#section-8 {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  display: relative;
+}
+
+.overall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60;
+}
+
+.char-text {
+  background-color: rgb(142, 187, 255);
+  width: 1005;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.char-name {
+  margin: 0;
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.char-desc {
+  margin: 0;
+  padding: 20;
+}
+
+.text-content {
+  color: white;
+  padding: 10 200 50 200;
+  margin: 0;
+  tab-size: 4;
+}
+
+.audio-element {
+  width: 30%;
+}
+
+.audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30;
+}
+
+.mid-header {
+  color: white;
+  padding: 10 200 50 200;
+  margin: 0;
+  font-size: 20;
+  text-align: center;
+}
+
+.video-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-content {
+  color: white;
+  padding: 200;
+}
+
+.btn {
+  width: 70%;
+  height: 200;
+  background-color: green;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 10;
+  margin: 100;
+}
+
+.btn:hover {
+  background-color: rgb(4, 107, 4);
+}
+
+.btn:active {
+  background-color: rgb(0, 49, 0);
+}
+
+.sources {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  a {
+    font-size: 10;
+  }
+  .text-content {
+    font-size: 10;
+    padding: 50;
+  }
+  h3 {
+    padding: 50;
+  }
+  h2 {
+    padding: 50;
+    font-size: 40;
+    text-align: center;
+  }
+  h1 {
+    font-size: 100;
+    text-align: center;
+    margin: 0;
+    margin-top: 100;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  #section-4 {
+    height: 1000;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    gap: 10px;
+  }
+}
